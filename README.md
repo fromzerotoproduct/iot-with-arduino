@@ -1,2 +1,2 @@
 # iot-with-arduino
-Repo to start IoT prototype with Arduino Boards
+Repo to start IoT prototypes with Arduino Boards
