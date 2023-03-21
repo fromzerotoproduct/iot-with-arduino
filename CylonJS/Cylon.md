@@ -1,0 +1,3 @@
+In questo codice, prima di tutto importiamo la libreria Cylon.js. Quindi, creiamo un nuovo robot, specificando il tipo di connessione arduino e il pin a cui sono collegati i due LED.
+
+All'interno della funzione work(), utilizziamo il metodo every() di Cylon.js per far lampeggiare i due LED alternativamente. Il metodo every() esegue la funzione callback passata ogni 500 millisecondi (in questo caso, grazie all'utilizzo del metodo .second()). All'interno della funzione callback, chiamiamo il metodo toggle() su entrambi i driver led1 e led2 per alternare lo stato dei LED. Infine, avviamo il robot con il metodo start().
